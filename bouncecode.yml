@@ -1,5 +1,12 @@
 name: opentutorials-nodejs
 
+install:
+    - curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    - sudo apt-get install -y nodejs
+
+copy: 
+    - webserver.js
+
 information:
     title: JavaScript (nodejs)
 
@@ -14,7 +21,7 @@ exercises:
                     
                     <iframe width="100%" height="240" src="https://www.youtube.com/embed/AkMjAlHwCy0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             -
-                subject: 서버 측 자바스크립트와 nodejs 소개
+                subject: nodejs 설치 및 실행
                 guide: |
                     이번 수업에서는 Nodejs를 설치하고, 간단한 프로그램을 만들어서 실행시키는 방법을 알아봅니다. 
                     
