@@ -30,6 +30,8 @@ exercises:
                     <iframe width="100%" height="240" src="https://www.youtube.com/embed/M3fQvQU5kQk?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             -
                 subject: 간단한 웹 에플리케이션 만들기
+                active:
+                    - webserver.js
                 guide: |
                     본 수업에서는 Nodejs를 이용해서 간단한 서버 에플리케이션을 만들어보겠습니다. 
                     
