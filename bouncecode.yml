@@ -32,6 +32,8 @@ exercises:
                 subject: 간단한 웹 에플리케이션 만들기
                 active:
                     - webserver.js
+                run:
+                    - ((bouncecode open http://localhost:1337 -p 1337) &) && node webserver.js
                 guide: |
                     본 수업에서는 Nodejs를 이용해서 간단한 서버 에플리케이션을 만들어보겠습니다. 
                     
